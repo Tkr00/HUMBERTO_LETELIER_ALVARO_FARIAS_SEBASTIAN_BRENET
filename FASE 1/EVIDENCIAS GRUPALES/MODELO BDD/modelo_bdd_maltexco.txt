@@ -1,0 +1,161 @@
+CREATE TABLE empleado (
+    rut              VARCHAR2(13) NOT NULL,
+    nombre           VARCHAR2(60) NOT NULL,
+    linea_produccion VARCHAR2(70) NOT NULL,
+    tipo_empleado    INTEGER NOT NULL
+);
+
+ALTER TABLE empleado ADD CONSTRAINT empleado_pk PRIMARY KEY ( rut );
+
+CREATE TABLE gas (
+    horno_nro_batch  INTEGER NOT NULL,
+    horno_fecha_hora DATE NOT NULL,
+    id_gas           INTEGER NOT NULL,
+    gas_total        FLOAT NOT NULL,
+    gasetapa1        FLOAT NOT NULL,
+    gasetapa2        FLOAT NOT NULL,
+    gasetapa3        FLOAT NOT NULL,
+    gasetapa4        FLOAT NOT NULL,
+    gasetapa5        FLOAT NOT NULL,
+    gasetapa6        FLOAT NOT NULL
+);
+
+ALTER TABLE gas ADD CONSTRAINT gas_pk PRIMARY KEY ( id_gas );
+
+CREATE TABLE horno (
+    nro_batch           INTEGER NOT NULL,
+    fecha_hora          DATE NOT NULL,
+    variedad            VARCHAR2(120) NOT NULL,
+    hr_sobretela        FLOAT,
+    porcentaje_ad       FLOAT,
+    presion_diferencial FLOAT
+);
+
+ALTER TABLE horno ADD CONSTRAINT horno_pk PRIMARY KEY ( nro_batch,
+                                                        fecha_hora );
+
+CREATE TABLE materia_prima (
+    id_materia     INTEGER NOT NULL,
+    nombre_materia VARCHAR2(60) NOT NULL
+);
+
+ALTER TABLE materia_prima ADD CONSTRAINT materia_prima_pk PRIMARY KEY ( id_materia );
+
+CREATE TABLE orden_produccion (
+    nro_batch                INTEGER NOT NULL,
+    cdo_horno                VARCHAR2 
+--  ERROR: VARCHAR2 size not specified 
+     NOT NULL,
+    nro_cajon                INTEGER NOT NULL,
+    fecha_inicio             DATE NOT NULL,
+    fecha_termino            DATE NOT NULL,
+    producto_terminado       VARCHAR2 
+--  ERROR: VARCHAR2 size not specified 
+     NOT NULL,
+    materia_prima_id_materia INTEGER NOT NULL,
+    empleado_rut             VARCHAR2(13) NOT NULL,
+    horno_nro_batch          INTEGER NOT NULL,
+    horno_fecha_hora         DATE NOT NULL
+);
+
+ALTER TABLE orden_produccion
+    ADD CONSTRAINT orden_produccion_pk PRIMARY KEY ( nro_batch,
+                                                     cdo_horno,
+                                                     horno_nro_batch,
+                                                     horno_fecha_hora );
+
+CREATE TABLE setpointtemp (
+    horno_nro_batch   INTEGER NOT NULL,
+    horno_fecha_hora  DATE NOT NULL,
+    id_set_point      INTEGER NOT NULL,
+    set_point_etapa_1 FLOAT NOT NULL,
+    set_point_etapa_2 FLOAT,
+    set_point_etapa_3 FLOAT,
+    set_point_etapa_4 FLOAT,
+    set_point_etapa_5 FLOAT,
+    set_point_etapa_6 FLOAT
+);
+
+ALTER TABLE setpointtemp ADD CONSTRAINT setpointtemp_pk PRIMARY KEY ( id_set_point );
+
+CREATE TABLE temperatura (
+    id_temp          INTEGER NOT NULL,
+    t_sobretela_1    FLOAT NOT NULL,
+    t_sobretela_2    FLOAT NOT NULL,
+    t_bajotela2      FLOAT NOT NULL,
+    temp_ambiente    FLOAT NOT NULL,
+    horno_nro_batch  INTEGER NOT NULL,
+    horno_fecha_hora DATE NOT NULL
+);
+
+ALTER TABLE temperatura ADD CONSTRAINT temperatura_pk PRIMARY KEY ( id_temp );
+
+CREATE TABLE tiempo (
+    horno_nro_batch      INTEGER NOT NULL,
+    horno_fecha_hora     DATE NOT NULL,
+    id_tiempo            INTEGER NOT NULL,
+    tiempo_total         FLOAT NOT NULL,
+    tiempo_barra_etapa_1 FLOAT NOT NULL,
+    tiempo_barra_etapa_2 FLOAT NOT NULL,
+    tiempo_barra_etapa_3 FLOAT NOT NULL,
+    tiempo_barra_etapa_4 FLOAT NOT NULL,
+    tiempo_barra_etapa_5 FLOAT NOT NULL,
+    tiempo_barra_etapa_6 FLOAT NOT NULL
+);
+
+ALTER TABLE tiempo ADD CONSTRAINT tiempo_pk PRIMARY KEY ( id_tiempo );
+
+CREATE TABLE tipo_empleado (
+    id_tipo      INTEGER NOT NULL,
+    cargo        VARCHAR2(50) NOT NULL,
+    empleado_rut VARCHAR2(13) NOT NULL
+);
+
+ALTER TABLE tipo_empleado ADD CONSTRAINT tipo_empleado_pk PRIMARY KEY ( id_tipo );
+
+ALTER TABLE gas
+    ADD CONSTRAINT gas_horno_fk FOREIGN KEY ( horno_nro_batch,
+                                              horno_fecha_hora )
+        REFERENCES horno ( nro_batch,
+                           fecha_hora );
+
+ALTER TABLE orden_produccion
+    ADD CONSTRAINT orden_produccion_empleado_fk FOREIGN KEY ( empleado_rut )
+        REFERENCES empleado ( rut );
+
+ALTER TABLE orden_produccion
+    ADD CONSTRAINT orden_produccion_horno_fk FOREIGN KEY ( horno_nro_batch,
+                                                           horno_fecha_hora )
+        REFERENCES horno ( nro_batch,
+                           fecha_hora );
+
+--  ERROR: FK name length exceeds maximum allowed length(30) 
+ALTER TABLE orden_produccion
+    ADD CONSTRAINT orden_produccion_materia_prima_fk FOREIGN KEY ( materia_prima_id_materia )
+        REFERENCES materia_prima ( id_materia );
+
+ALTER TABLE setpointtemp
+    ADD CONSTRAINT setpointtemp_horno_fk FOREIGN KEY ( horno_nro_batch,
+                                                       horno_fecha_hora )
+        REFERENCES horno ( nro_batch,
+                           fecha_hora );
+
+ALTER TABLE temperatura
+    ADD CONSTRAINT temperatura_horno_fk FOREIGN KEY ( horno_nro_batch,
+                                                      horno_fecha_hora )
+        REFERENCES horno ( nro_batch,
+                           fecha_hora );
+
+ALTER TABLE tiempo
+    ADD CONSTRAINT tiempo_horno_fk FOREIGN KEY ( horno_nro_batch,
+                                                 horno_fecha_hora )
+        REFERENCES horno ( nro_batch,
+                           fecha_hora );
+
+ALTER TABLE tipo_empleado
+    ADD CONSTRAINT tipo_empleado_empleado_fk FOREIGN KEY ( empleado_rut )
+        REFERENCES empleado ( rut );
+
+
+
+

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_bdd_maltexco" id="C5C81CB8-E2E5-0932-1810-ADF2C6EB366E" version="3.5">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-03 02:26:02 UTC</createdTime>
+<ownerDesignName>modelo_bdd_maltexco</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C5C81CB8-E2E5-0932-1810-ADF2C6EB366E</designId>
+</OSDM_Design>
