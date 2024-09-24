@@ -1,0 +1,637 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="516C8F2D-54DC-8098-D7F4-4A75A4F8370E" name="INFO_PRODUCCION">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-23 20:56:30 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="batch" id="630C46BC-8A4B-DBA7-B716-5B141EA51D82">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 00:08:04 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_malta" id="204CA944-2258-2F98-F0F4-2121E16E7DB4">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 00:08:19 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_horno" id="57AD331C-6A72-5365-EDF3-358BA6336420">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 00:08:47 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_horneo" id="3CA0C48A-4E22-CC8A-726C-56B24E6B0A61">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 00:09:07 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_variedad" id="E1A043F7-3051-FEAC-D620-EAE2E69AF728">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 00:09:33 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cebada_limpia" id="F1A37318-7B7A-D96D-B65D-252F2AAB3DE1">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 00:09:51 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cebada_sucia" id="D3ED34C1-62A6-B166-91C8-DFDC9559E36A">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 00:10:20 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="falla" id="D75BA31B-A3AC-D9DE-8BE6-8C4C44611698">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:19:57 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="impureza" id="80A2A045-8182-EF95-D1F1-CB70FE7491CA">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:20:05 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="polvo" id="0B01DABA-193A-8446-6F74-683778529692">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:20:41 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="malta_sucia" id="E1BC7761-5DA3-3E5D-01E3-E17F4DAA673D">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:20:47 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brote" id="10FA957E-CED8-2B57-AFA6-DFD39E03E9CD">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:23:44 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pijilla_malta" id="90216092-1734-D830-4CAB-C5913FF4A032">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:23:52 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="malta_limpia" id="04F5460A-3407-6E1D-E723-91E400106DA5">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:24:07 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="malta_verde" id="67E74652-4A01-1DB8-48AF-E67621BB27CE">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:23:55 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="materiaseca" id="D65E80C3-292F-9C26-6F2A-72841E0F12CD">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:24:37 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_volteo" id="8B7B5D5B-7F4B-9E69-4324-DF444A0B173F">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:24:42 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_pulido" id="880BE0E6-8662-194C-030E-35EDD3FB4738">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:25:32 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="silo_destino_1" id="F7100C0F-9DD4-771B-DC12-BF85B21D0FA8">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:25:51 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kg_destino_1" id="1ABD6766-8F13-5421-DC19-84D827B13101">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:26:35 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="silo_destino_2" id="E7A376CB-D775-44CD-263E-A283CB71E199">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:26:16 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kg_destino_2" id="34D3B0D6-C0F0-FD29-51A9-E9BFDE1DE93A">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:27:23 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="electricidad" id="33A0C3E7-2909-BDD1-93B7-25216A559AD4">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:27:41 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="agua" id="8D3E50E1-FF07-F9BA-B3F0-67BCE4185F9B">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:28:22 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gas" id="93893650-3568-9AB7-0248-D8BA1CA7E495">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:28:27 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cs_ci" id="02188EA9-2087-C890-FE9B-330EF29ECD32">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:28:53 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ci_mi" id="99100AFE-97BB-CAEF-97B0-6C9D56BB4BB1">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:29:21 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cs/ml" id="36937966-DE9E-33FA-8BF5-66C6037AC249">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:29:51 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ms/ml" id="1600A232-EF96-29EC-10EE-12B79918CD72">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:30:16 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brote/ml" id="497F0343-99FA-467C-CED8-DF2B93597702">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:30:29 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="factor_perdida_humedad" id="E0560334-EE75-DA8A-4EC8-628476967A02">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:30:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="factor_perdida_conversion" id="CD2DC752-99F9-9979-C417-C8B54C303889">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:31:13 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kg_perdida_humedad" id="EDA75279-112B-C710-7D19-85EEF3505BA3">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:31:31 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kg_perdida_conversion" id="B0BFAE1C-8108-F71A-3ADC-48E07DBDFB8D">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:31:59 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="factor_carbon" id="28349E6C-EDA8-136E-7225-8C4F9DB369CC">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:32:12 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="factor_electricidad" id="F1739E68-26CC-C68C-6030-E78F4E229BE1">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:32:38 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="factor_agua" id="34DB02B6-7544-1F6E-AE36-A3A6AF757E6D">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:32:59 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_malta" id="71DEE6DD-A054-9A1B-CCC8-7431881668E5">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:37:09 UTC</createdTime>
+<generatorID>738A32DE-B874-AF95-2FA1-556441B3D039</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<referedAttribute>E6EDBB94-4845-2C2E-7C38-D3F57C53BF47</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="batch1" id="28C32EE2-40BB-EFD2-1AE4-1E6D0C3836C8">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:37:55 UTC</createdTime>
+<generatorID>123AF1D5-CF7A-283A-5BAA-C5EC12E57CB4</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<referedAttribute>E8A0FFD5-82FF-8533-2F46-986B86CEAD75</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_germinacion" id="F530D56A-3C36-0093-DF62-C5EA2668EA73">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:39:00 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_tina" id="2EFA3BA7-31DC-C135-4704-54C62AF4E06D">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:39:13 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_horno" id="45A7F504-5F9A-4BC4-EFFE-5B8A7886162F">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:43:06 UTC</createdTime>
+<generatorID>7466FBD9-0F80-06B0-1C5A-816EC3BCC29E</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<referedAttribute>68F88B58-2126-8918-C61E-B9B676BB0D56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_germinacion1" id="B3CD4ABE-3E93-D551-4C45-DB75FE750E9E">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:54:59 UTC</createdTime>
+<generatorID>C15AFCEF-F1AF-C4AD-842B-3313B42BC490</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<referedAttribute>F67F9623-4158-27F0-8C31-5C693DEA9629</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="2CD54176-4506-C6D1-527F-2180A31BCD59">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:55:04 UTC</createdTime>
+<generatorID>077D253F-04BE-0072-1A94-BA48FCC57842</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<referedAttribute>D9AB7EF5-4326-FFB5-A8E2-15A36DE15A9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="batch2" id="B42B8370-EFF6-9AD3-991D-27239AC79D1C">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:55:04 UTC</createdTime>
+<generatorID>077D253F-04BE-0072-1A94-BA48FCC57842</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<referedAttribute>C64B8622-86DF-7694-34C0-C0DDDCC1A4BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_tina1" id="2C9D2C8E-E451-8BB4-F168-B6EE7E215D0F">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 03:55:13 UTC</createdTime>
+<generatorID>465CF329-ABFD-F3BF-CB89-C211FFABE3B4</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<referedAttribute>FD84936D-1037-18FD-ABA3-32FE27C44186</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="8C0BFB7F-7038-7EA6-D5EA-B1D7B04F33F0">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:02:27 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario1" id="EA7C5B31-0EF3-455F-15B3-B3D2C933F067">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:02:56 UTC</createdTime>
+<generatorID>A5EC818F-166F-8491-C101-FD9752CE9CC3</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<referedAttribute>2D1709F2-1C62-921D-BBDC-7F80E15A763E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47FBADD3-A2E2-A5DA-30D9-543A5D31BBAF" name="INFO_PRODUCCION PK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 00:08:17 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<engineerTo>
+<item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>630C46BC-8A4B-DBA7-B716-5B141EA51D82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

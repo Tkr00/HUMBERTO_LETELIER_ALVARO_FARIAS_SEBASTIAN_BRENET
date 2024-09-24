@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3154B6FB-DFCD-EC22-0D61-0645348DB9FD" name="VARIEDAD">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>3709FFE3-BBF2-CD2F-06DD-79DB9706F1D4</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_variedad" id="B0CFC331-FFB3-FC93-CEBA-7A4558135473">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>16F04738-0C60-B340-5A88-C5772833D0AA</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="B2E43E4F-EE0B-ACA9-F069-B1F8C9B7F719">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>979F279E-ACED-A4E1-4F97-626C5D0497EA</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26B8C0FF-1A5C-41FF-34D3-15F9D28D4E67" name="VARIEDAD_PK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>5B1FBCF7-1688-AE17-6C8A-E07A8AB0EB22</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0CFC331-FFB3-FC93-CEBA-7A4558135473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
