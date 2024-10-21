@@ -24,8 +24,12 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>979F279E-ACED-A4E1-4F97-626C5D0497EA</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

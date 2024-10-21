@@ -19,16 +19,75 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="descipcion" id="54C3EAC9-CB41-15FE-3F76-6A4A820F9B70">
+<Column name="batch" id="EA0BB1F1-B993-AF6E-1C5B-5E7F43465263">
 <createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>4FBE12C4-B4D2-4614-BD60-D5CDEC5C7C23</generatorID>
+<createdTime>2024-10-20 07:57:56 UTC</createdTime>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="6468EB54-6716-4659-8AC9-1630B6547678">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 04:03:34 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="3BE70484-303E-B782-00E6-0F0AABD0DBF3">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 04:03:34 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TempTina1" id="39F5AD87-2745-8FD9-A6AE-496726929DA1">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 04:03:34 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TempTina2" id="821B2F29-A116-AA2D-31C2-7F863742CE60">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 04:03:34 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_estado_tina" id="454D8949-30BA-5E42-FB46-63E32B761705">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 04:19:57 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C1ED377-49BB-BB38-A011-32F0D5D60C27" referredColumn="8AD4CCC0-5536-4780-6613-D44EC08F9EA0"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -42,6 +101,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EF60ECC8-5544-79B7-5A9D-051FFAD1B347"/>
+<colUsage columnID="EA0BB1F1-B993-AF6E-1C5B-5E7F43465263"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECBD4BF6-A176-1775-69C2-99849CD00A02" name="INFO_TINA_ESTADOv1_FK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 04:19:57 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="454D8949-30BA-5E42-FB46-63E32B761705"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

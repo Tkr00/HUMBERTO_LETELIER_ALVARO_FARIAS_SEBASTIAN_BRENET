@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A8A2C0FA-9C8B-B293-B99E-5C4CCAC357A9" containerWithKeyObject="56309F70-FC17-B132-8A14-6DEDF3715EFF" localFKIndex="4055F864-BC62-D2DB-0E51-BDFF428C2636" name="INFO_ANALISIS_INFO_PRODUCCION_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="166F66C5-DC8F-7AE7-AFE4-045639BC6159" containerWithKeyObject="C8E25701-CE81-2F2D-DDA4-FA25F80FBA78" localFKIndex="31261E74-CE5A-6C3F-A4FD-867605AA15CA" name="INFO_GERMINACION_INFO_PRODUCCION_FK">
 <createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>123AF1D5-CF7A-283A-5BAA-C5EC12E57CB4</generatorID>
+<createdTime>2024-10-20 07:49:32 UTC</createdTime>
+<generatorID>47FBADD3-A2E2-A5DA-30D9-543A5D31BBAF</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
 <referredTableLongName>INFO_PRODUCCION</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

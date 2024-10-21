@@ -19,14 +19,93 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="descripcion" id="A3969B36-CBCF-B178-EF11-61926D77F0A1">
+<Column name="batch" id="45BDE848-883C-D228-8A0D-93653F2D44D0">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 07:49:32 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tbhorno" id="A3969B36-CBCF-B178-EF11-61926D77F0A1">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>B958E12B-2401-FCCA-B4F5-77FFA48DB1A2</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="ED65E37F-1113-729A-DF30-3074315FAA3F">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 03:52:28 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tshorno" id="5BAE722E-5369-99F1-D206-962AB64A2B67">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 03:52:28 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presionbhorno" id="5EC20973-5351-B76E-AC05-5FA244AECEA6">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 03:52:28 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="abertura" id="FB999716-07B4-A5C8-9B58-7D244A1597E7">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 03:52:28 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tcontrol" id="1F8783A9-CFF6-8BB6-94F9-0421B2758AD4">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 03:52:28 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tretorno" id="6095CACE-6509-5BE2-2D03-64E79BA8AFBF">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-20 03:52:28 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -42,6 +121,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7BFFF698-E248-1935-BB5F-36DB0DAB7F58"/>
+<colUsage columnID="45BDE848-883C-D228-8A0D-93653F2D44D0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

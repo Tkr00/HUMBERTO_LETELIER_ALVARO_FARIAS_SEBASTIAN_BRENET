@@ -8,15 +8,15 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="batch" id="F81D16EF-4768-7EB2-7004-3F8D9EE894A1">
+<Column name="batch" id="2AE44912-8388-9B4F-CD36-4E15C41DD3A8">
 <createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>C64B8622-86DF-7694-34C0-C0DDDCC1A4BA</generatorID>
+<createdTime>2024-10-20 07:51:00 UTC</createdTime>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="fecha" id="164CF2B8-76D3-C841-7E2B-C5777DCD6796">
@@ -35,6 +35,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>DE62B845-6E86-2D1D-6B06-DA43BCB0968E</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -47,6 +48,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>EDCDE014-726E-C73A-F70B-DE7AA16E3CB4</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -59,6 +61,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>DEC2A66D-00FB-53CC-74AD-609CB26A5C08</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -71,6 +74,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>D5DC2DC2-4B15-0609-3D08-03E6EB9CA8FC</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -83,6 +87,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>1DC60E33-AA4B-C70A-CBA3-B2AAB17975B2</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -95,6 +100,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>4ACED1EB-B32C-12F9-7D4E-D8AD0A7D9B96</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -107,6 +113,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>17B03DB1-F899-0B40-7A1B-6D7042C5C101</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -118,6 +125,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>15917C97-3F75-A224-EEE7-67DACBE10E49</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -129,6 +137,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>1F356D14-E1A0-361F-9CB0-F39D309F07E4</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -140,6 +149,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>2CCE84E8-0650-E056-FE31-1693C4FE3AD3</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -151,6 +161,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>FA523083-D85F-6AF1-33FD-D1AC43B4CABA</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -162,6 +173,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>B77003CB-A8D7-D802-32AB-449AB95293C6</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -173,6 +185,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>9D82FE3B-982B-F0E9-4182-6DF3E2A2597C</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -184,6 +197,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>486BA489-42BF-1D69-AFD2-15A9D4EB3500</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -195,6 +209,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>85333BFA-4737-2BFD-4D0E-6AFFF945FFB8</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -206,6 +221,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>6C97E20B-881F-4B87-E8E4-A5CEB8BE9740</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -217,6 +233,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>86DCCF3F-6344-9050-04C8-A9EEB6395A28</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -228,6 +245,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>9D0AA5A9-9F56-9774-F8DF-34E20FE5468D</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -239,6 +257,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>35FA6B49-A621-1DA4-5E8E-A651AF2E5234</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -250,6 +269,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>1B0A253E-7D7F-D6AE-2E4F-05111C0F4B65</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -261,6 +281,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>F03B04EE-40BD-74E2-3973-E602F721AAC5</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -272,6 +293,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>A4F7C464-BB55-BCA5-A3F4-737A645B39D9</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -283,6 +305,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>AF7BF68E-332D-84EB-A5C5-DFD310BC5A3A</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -294,6 +317,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>45376335-AD3E-5D02-5733-16153306016F</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -305,6 +329,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>651F9EA1-D8E1-3004-2D4E-229AABDECA6C</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -316,6 +341,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>CA5A991B-F423-0268-A382-BBA204630CF9</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -327,6 +353,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>6E631B3D-8BAD-0DFF-D8D9-54185EFD7E4B</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -345,7 +372,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="164CF2B8-76D3-C841-7E2B-C5777DCD6796"/>
-<colUsage columnID="F81D16EF-4768-7EB2-7004-3F8D9EE894A1"/>
+<colUsage columnID="2AE44912-8388-9B4F-CD36-4E15C41DD3A8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

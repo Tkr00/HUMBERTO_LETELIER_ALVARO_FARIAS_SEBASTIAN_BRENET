@@ -24,6 +24,7 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>8C0AECBD-40DD-A22B-A43E-B97BF42EF0D5</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

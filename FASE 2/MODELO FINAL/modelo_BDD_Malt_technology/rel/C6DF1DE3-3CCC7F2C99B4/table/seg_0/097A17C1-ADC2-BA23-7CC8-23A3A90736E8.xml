@@ -24,15 +24,17 @@
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>A916A91F-924C-1F25-F965-DF8A46BE385C</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F0ACED36-AD43-766F-E1AF-5D2D4D20C279" name="ESTADO_PK">
+<ind_PK_UK id="F0ACED36-AD43-766F-E1AF-5D2D4D20C279" name="ESTADO_PKv2">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>786B6B9C-9A5A-7C3B-77CF-3858CCCA6894</generatorID>
