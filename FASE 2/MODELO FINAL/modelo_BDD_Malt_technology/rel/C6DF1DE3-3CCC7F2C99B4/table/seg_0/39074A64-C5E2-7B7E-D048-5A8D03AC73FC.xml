@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39074A64-C5E2-7B7E-D048-5A8D03AC73FC" name="SILO">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 09:20:10 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_silo" id="721E8842-8B8F-644C-9294-C4CF59C1C7CF">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 09:20:54 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="EC49DE79-754B-B306-186E-F40387820A62">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 09:20:54 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77C50DF5-D326-B3D6-76CC-2DF0124330AC" name="SILO_PK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 09:21:31 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="721E8842-8B8F-644C-9294-C4CF59C1C7CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

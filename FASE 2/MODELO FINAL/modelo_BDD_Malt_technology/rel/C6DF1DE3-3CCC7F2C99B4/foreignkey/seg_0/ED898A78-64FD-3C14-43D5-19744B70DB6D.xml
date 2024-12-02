@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ED898A78-64FD-3C14-43D5-19744B70DB6D" containerWithKeyObject="1CEAA1EC-7D0E-28F5-6D27-FF95EBEB434C" localFKIndex="B5A32758-067B-E361-5C73-F11BFDBC99DA" name="INFO_TINA_INFO_PRODUCCION_FK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:19:17 UTC</createdTime>
+<generatorID>47FBADD3-A2E2-A5DA-30D9-543A5D31BBAF</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<referredTableLongName>INFO_PRODUCCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D8AA64F-2AA9-FE71-4326-F79FE5368799</referredTableID>
+<keyObject>0E7C426B-BC34-09BF-B86F-F673B97EF959</keyObject>
+<referredKeyID>0E7C426B-BC34-09BF-B86F-F673B97EF959</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>batch</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

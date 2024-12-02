@@ -605,15 +605,15 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usuario1" id="EA7C5B31-0EF3-455F-15B3-B3D2C933F067">
+<Attribute name="cod_silo" id="A242A11E-CC4A-6C0B-3E66-2AE73362AEC1">
 <createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:02:56 UTC</createdTime>
-<generatorID>A5EC818F-166F-8491-C101-FD9752CE9CC3</generatorID>
+<createdTime>2024-12-01 01:02:19 UTC</createdTime>
+<generatorID>89F13C92-46AF-E2F2-33E2-A396A560B0D5</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
 <engineerTo>
 <item key="C6DF1DE3-FB92-1F99-DDB4-3CCC7F2C99B4" value="true"/>
 </engineerTo>
-<referedAttribute>2D1709F2-1C62-921D-BBDC-7F80E15A763E</referedAttribute>
+<referedAttribute>110D04AE-EA9E-AF45-D339-E495DE87AC10</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

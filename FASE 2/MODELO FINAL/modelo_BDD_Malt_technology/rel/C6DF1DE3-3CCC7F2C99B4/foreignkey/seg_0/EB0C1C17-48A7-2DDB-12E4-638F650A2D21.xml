@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB0C1C17-48A7-2DDB-12E4-638F650A2D21" containerWithKeyObject="0D8AA64F-2AA9-FE71-4326-F79FE5368799" localFKIndex="AC3715CB-4D3D-D381-09BC-E0DD4EDC9C88" name="INFO_PRODUCCION_SILO_FK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 09:27:29 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<referredTableLongName>SILO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>39074A64-C5E2-7B7E-D048-5A8D03AC73FC</referredTableID>
+<keyObject>77C50DF5-D326-B3D6-76CC-2DF0124330AC</keyObject>
+<referredKeyID>77C50DF5-D326-B3D6-76CC-2DF0124330AC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_silo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

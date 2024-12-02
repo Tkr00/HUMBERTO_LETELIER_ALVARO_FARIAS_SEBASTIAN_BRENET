@@ -18,6 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B575AEC-FAB2-0011-B8A2-2A0D8E61611F" referredColumn="9970B893-CDF3-F824-6B38-F76F154A67FC"/>
+</associations>
 </Column>
 <Column name="fecha" id="164CF2B8-76D3-C841-7E2B-C5777DCD6796">
 <createdBy>Alvaro</createdBy>
@@ -372,6 +375,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="164CF2B8-76D3-C841-7E2B-C5777DCD6796"/>
+<colUsage columnID="2AE44912-8388-9B4F-CD36-4E15C41DD3A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A793931-462C-67A3-30B5-07556368C13F" name="INFO_HORNO_INFO_PRODUCCION_FK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:22:30 UTC</createdTime>
+<generatorID>47FBADD3-A2E2-A5DA-30D9-543A5D31BBAF</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
 <colUsage columnID="2AE44912-8388-9B4F-CD36-4E15C41DD3A8"/>
 </indexColumnUsage>
 </ind_PK_UK>

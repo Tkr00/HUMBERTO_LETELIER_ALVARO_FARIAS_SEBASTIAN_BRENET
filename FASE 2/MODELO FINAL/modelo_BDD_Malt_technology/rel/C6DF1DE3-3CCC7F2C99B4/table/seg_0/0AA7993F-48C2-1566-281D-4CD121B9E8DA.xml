@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AA7993F-48C2-1566-281D-4CD121B9E8DA" name="INFO_GERM">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:33:30 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<abbreviation>IF_GERM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_germ" id="2B8B4FF6-1556-D189-D9D7-AFEC8E8CA70E">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="batch" id="E3CCD86F-D83B-2534-4E0B-C75A6B36E1BB">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="272044A2-08D8-B1DC-D7EA-544C12943ACD" referredColumn="9970B893-CDF3-F824-6B38-F76F154A67FC"/>
+</associations>
+</Column>
+<Column name="dia" id="744E0078-ABB3-6154-2C0F-24EAC231DB14">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="FE90063F-FB21-C07C-FACF-D26230875636">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rociador" id="EC994528-DEAF-6733-E429-5DBED239B951">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tretorno" id="EA2367EC-C02D-FF18-6EF6-1B6BABF2976B">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="texterior" id="83EE6F35-D18F-AAE4-0EAA-D7EF2B9D214E">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tinferior" id="B641BC2C-7ABB-FFB2-320C-BE34544D6EDF">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tsuperior" id="117913A6-5DBD-960A-3100-3963978FF493">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CajonGerminacion" id="3B31C870-814F-B850-7864-9ADDF639EB84">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaReloj" id="5D5762DC-D7DC-83E3-B036-6A1F410BBDD4">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="546D9AD1-B7B4-2003-D2C7-D74A4838B58E">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E456DEA-D5CF-1CED-4B98-F1A22DFA5CD3" name="INFO_GERM_PK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:40:49 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B8B4FF6-1556-D189-D9D7-AFEC8E8CA70E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2475C7E-04E4-CCC8-3ABF-168AD6FF5F0E" name="INFO_GERM_INFO_PRODUCCION_FK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 08:41:24 UTC</createdTime>
+<generatorID>47FBADD3-A2E2-A5DA-30D9-543A5D31BBAF</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3CCD86F-D83B-2534-4E0B-C75A6B36E1BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

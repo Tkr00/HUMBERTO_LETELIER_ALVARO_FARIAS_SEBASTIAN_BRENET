@@ -18,26 +18,17 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1762DB7D-F3A5-89E0-8BF9-D7FE63DA6CA7" referredColumn="45BDE848-883C-D228-8A0D-93653F2D44D0"/>
-<colAssociation fkAssociation="7B14B05E-0C18-1CCB-5951-A9095970387B" referredColumn="2AE44912-8388-9B4F-CD36-4E15C41DD3A8"/>
-<colAssociation fkAssociation="088BCDC3-B8D6-F71B-A7CD-8CAECB2E559D" referredColumn="EA0BB1F1-B993-AF6E-1C5B-5E7F43465263"/>
-</associations>
 </Column>
-<Column name="id_tipo_malta" id="8D01744D-B077-BB65-3A8B-057B75071E17">
+<Column name="fecha_horneo" id="4B2C1CBC-D2C1-9FC5-7A39-C1C0110C05E9">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>71DEE6DD-A054-9A1B-CCC8-7431881668E5</generatorID>
+<generatorID>3CA0C48A-4E22-CC8A-726C-56B24E6B0A61</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="49FCC448-1B44-441A-0020-0F9D95D580DF" referredColumn="BE5B5F86-86C8-AF15-9338-E76D62F0D7FA"/>
-</associations>
 </Column>
 <Column name="id_tipo_horno" id="BCC6DA39-1A67-0CC0-6E43-A60A931E4B86">
 <createdBy>Alvaro</createdBy>
@@ -54,22 +45,12 @@
 <colAssociation fkAssociation="477B00C7-56B3-35B2-D159-BDEAC9CC57D4" referredColumn="322BF4DD-BDBD-991C-BD3C-4F2569BC82FE"/>
 </associations>
 </Column>
-<Column name="fecha_horneo" id="4B2C1CBC-D2C1-9FC5-7A39-C1C0110C05E9">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>3CA0C48A-4E22-CC8A-726C-56B24E6B0A61</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="tipo_variedad" id="2F6A49CF-0B25-76EE-C36D-1BA9CE34E1D7">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>E1A043F7-3051-FEAC-D620-EAE2E69AF728</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -77,18 +58,20 @@
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cebada_limpia" id="5C34E552-7396-15B2-6954-5FC6745B8CEA">
+<Column name="id_tipo_malta" id="8D01744D-B077-BB65-3A8B-057B75071E17">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>F1A37318-7B7A-D96D-B65D-252F2AAB3DE1</generatorID>
+<generatorID>71DEE6DD-A054-9A1B-CCC8-7431881668E5</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49FCC448-1B44-441A-0020-0F9D95D580DF" referredColumn="BE5B5F86-86C8-AF15-9338-E76D62F0D7FA"/>
+</associations>
 </Column>
 <Column name="cebada_sucia" id="CC457B73-4FC2-553D-72B1-B54DFD71DCFB">
 <createdBy>Alvaro</createdBy>
@@ -101,18 +84,6 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="falla" id="59EBEF5F-0DF9-758F-29F6-60308D0D1E3B">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>D75BA31B-A3AC-D9DE-8BE6-8C4C44611698</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="impureza" id="21CE2755-F463-8963-E39A-7FCE34124A39">
@@ -139,6 +110,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="cebada_limpia" id="5C34E552-7396-15B2-6954-5FC6745B8CEA">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>F1A37318-7B7A-D96D-B65D-252F2AAB3DE1</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="malta_sucia" id="EB7DB5D7-C46B-3157-F55E-DCAE8CE37F3C">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
@@ -155,18 +139,6 @@
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>10FA957E-CED8-2B57-AFA6-DFD39E03E9CD</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="pijilla_malta" id="8DD80CFC-CAF7-2071-E598-883DDCD9A040">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>90216092-1734-D830-4CAB-C5913FF4A032</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -211,6 +183,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="malta_equivalente" id="8DD80CFC-CAF7-2071-E598-883DDCD9A040">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>90216092-1734-D830-4CAB-C5913FF4A032</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="fecha_volteo" id="2190C1C0-2B43-2760-73D5-D9E769C3A02D">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
@@ -235,72 +219,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="silo_destino_1" id="558A888D-C35F-2226-8F06-E10FD993C5DF">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>F7100C0F-9DD4-771B-DC12-BF85B21D0FA8</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="kg_destino_1" id="34315965-3C40-1C43-B644-A8AD3DF80175">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>1ABD6766-8F13-5421-DC19-84D827B13101</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="silo_destino_2" id="183D70BD-56E4-87BC-B2EE-C7C60A6652E5">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>E7A376CB-D775-44CD-263E-A283CB71E199</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="kg_destino_2" id="9145CBEE-A20B-F3CC-A600-BCF16337E4CA">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>34D3B0D6-C0F0-FD29-51A9-E9BFDE1DE93A</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="electricidad" id="D203523F-8446-40C2-5735-37D29D727D6B">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>33A0C3E7-2909-BDD1-93B7-25216A559AD4</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="agua" id="C3310332-0D40-6518-C4FA-2FC28762A01F">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>8D3E50E1-FF07-F9BA-B3F0-67BCE4185F9B</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -321,7 +243,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cs_ci" id="47C34CBF-9B35-1798-C0B3-23A32FE2D0EF">
+<Column name="agua" id="C3310332-0D40-6518-C4FA-2FC28762A01F">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>8D3E50E1-FF07-F9BA-B3F0-67BCE4185F9B</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cs_cl" id="47C34CBF-9B35-1798-C0B3-23A32FE2D0EF">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>02188EA9-2087-C890-FE9B-330EF29ECD32</generatorID>
@@ -334,7 +268,7 @@
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ci_mi" id="8E79CC12-791F-2BAC-E498-C81B77B21F80">
+<Column name="cl_ml" id="8E79CC12-791F-2BAC-E498-C81B77B21F80">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>99100AFE-97BB-CAEF-97B0-6C9D56BB4BB1</generatorID>
@@ -347,20 +281,18 @@
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cs/ml" id="99782B8B-0F8A-F63F-8A89-E0FCECA693D9">
+<Column name="brote_ml" id="F3B82E21-F73D-1718-7B4B-BB8ABFBEF64A">
 <createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>36937966-DE9E-33FA-8BF5-66C6037AC249</generatorID>
+<createdTime>2024-10-22 09:09:12 UTC</createdTime>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ms/ml" id="C9A26CD9-CEEF-1365-2F7B-EC3EEFA704AA">
+<Column name="ms_ml" id="C9A26CD9-CEEF-1365-2F7B-EC3EEFA704AA">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
 <generatorID>1600A232-EF96-29EC-10EE-12B79918CD72</generatorID>
@@ -373,10 +305,10 @@
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="brote/ml" id="4B7CE994-B552-97C4-8F21-A345E21C0D0D">
+<Column name="cs_ml" id="99782B8B-0F8A-F63F-8A89-E0FCECA693D9">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>497F0343-99FA-467C-CED8-DF2B93597702</generatorID>
+<generatorID>36937966-DE9E-33FA-8BF5-66C6037AC249</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -384,6 +316,15 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cl_ms" id="0AC3B711-9F3B-5185-AAAA-20CF58A2B261">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 09:10:22 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="factor_perdida_humedad" id="54111F21-EBB1-250E-F8DD-4B53ED643550">
@@ -436,89 +377,98 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="factor_carbon" id="8D2B9610-FBF4-3AB9-2A58-BEAF66CE0DB1">
+<Column name="kg_destino_2" id="9145CBEE-A20B-F3CC-A600-BCF16337E4CA">
 <createdBy>Alvaro</createdBy>
 <createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>28349E6C-EDA8-136E-7225-8C4F9DB369CC</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="factor_electricidad" id="CD679C3A-B724-20B3-A382-4D5A89434B7C">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>F1739E68-26CC-C68C-6030-E78F4E229BE1</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="factor_agua" id="D7D0C995-AA69-E6E2-5911-4B70DC31119D">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-09-24 04:10:59 UTC</createdTime>
-<generatorID>34DB02B6-7544-1F6E-AE36-A3A6AF757E6D</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="INFO_GERMINACION_cod_germinacion" id="0559DD5F-71D4-AB3A-59FF-A168EEFAC7E2">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-10-20 10:52:48 UTC</createdTime>
+<generatorID>34D3B0D6-C0F0-FD29-51A9-E9BFDE1DE93A</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1762DB7D-F3A5-89E0-8BF9-D7FE63DA6CA7" referredColumn="7BFFF698-E248-1935-BB5F-36DB0DAB7F58"/>
-</associations>
 </Column>
-<Column name="INFO_HORNO_fecha" id="4172BA03-C662-163A-4E53-C44B4F5A5221">
+<Column name="silo_destino_2" id="183D70BD-56E4-87BC-B2EE-C7C60A6652E5">
 <createdBy>Alvaro</createdBy>
-<createdTime>2024-10-20 10:54:04 UTC</createdTime>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7B14B05E-0C18-1CCB-5951-A9095970387B" referredColumn="164CF2B8-76D3-C841-7E2B-C5777DCD6796"/>
-</associations>
-</Column>
-<Column name="INFO_TINA_cod_tina" id="BA6633D9-459B-A961-FA3E-303BA82118E1">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-10-20 10:54:44 UTC</createdTime>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>E7A376CB-D775-44CD-263E-A283CB71E199</generatorID>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kg_destino_1" id="34315965-3C40-1C43-B644-A8AD3DF80175">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>1ABD6766-8F13-5421-DC19-84D827B13101</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="silo_destino_1" id="558A888D-C35F-2226-8F06-E10FD993C5DF">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>F7100C0F-9DD4-771B-DC12-BF85B21D0FA8</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kg_silo_origen_1" id="C9E08D7D-A12A-907D-0FAE-44FA99BBAA1A">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 09:18:51 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="silo_origen_1" id="7BCFCB43-64A0-CD09-A973-04966CF3ECA6">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 09:18:51 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="088BCDC3-B8D6-F71B-A7CD-8CAECB2E559D" referredColumn="EF60ECC8-5544-79B7-5A9D-051FFAD1B347"/>
+<colAssociation fkAssociation="EB0C1C17-48A7-2DDB-12E4-638F650A2D21" referredColumn="721E8842-8B8F-644C-9294-C4CF59C1C7CF"/>
 </associations>
+</Column>
+<Column name="kg_silo_origen_2" id="8965E1E4-343F-79E7-A552-2E686884A2E6">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 09:18:51 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="silo_origen_2" id="2E306CCD-5F0D-D8B4-0D07-6B5D558BA929">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-10-22 09:18:51 UTC</createdTime>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -567,40 +517,14 @@
 <colUsage columnID="BCC6DA39-1A67-0CC0-6E43-A60A931E4B86"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E944A996-ED81-F0F0-2C2D-B0C4A9AE7681" name="INFO_PRODUCCION_INFO_GERMINACION_FK">
+<ind_PK_UK id="AC3715CB-4D3D-D381-09BC-E0DD4EDC9C88" name="INFO_PRODUCCION_SILO_FK">
 <createdBy>Alvaro</createdBy>
-<createdTime>2024-10-20 10:52:48 UTC</createdTime>
-<generatorID>F5053EC0-A83F-7AA3-21CC-64A25BE2F377</generatorID>
+<createdTime>2024-10-22 09:27:29 UTC</createdTime>
 <ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0559DD5F-71D4-AB3A-59FF-A168EEFAC7E2"/>
-<colUsage columnID="9970B893-CDF3-F824-6B38-F76F154A67FC"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="9E63FB3B-BCB8-FE09-1D6F-507FE5287110" name="INFO_PRODUCCION_INFO_HORNO_FK">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-10-20 10:54:04 UTC</createdTime>
-<generatorID>EF6A72CB-A1C1-AE80-61A3-DB696EFF2114</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="4172BA03-C662-163A-4E53-C44B4F5A5221"/>
-<colUsage columnID="9970B893-CDF3-F824-6B38-F76F154A67FC"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="49BA8A60-4412-3386-9F49-C9B146B34D47" name="INFO_PRODUCCION_INFO_TINA_FK">
-<createdBy>Alvaro</createdBy>
-<createdTime>2024-10-20 10:54:44 UTC</createdTime>
-<generatorID>2E95ABCA-6DD5-F9AB-99C9-DD2E9A461272</generatorID>
-<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="BA6633D9-459B-A961-FA3E-303BA82118E1"/>
-<colUsage columnID="9970B893-CDF3-F824-6B38-F76F154A67FC"/>
+<colUsage columnID="7BCFCB43-64A0-CD09-A973-04966CF3ECA6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
