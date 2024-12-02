@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="81DC1FAF-D2D3-1908-A3EE-4AF83A78021D" containerWithKeyObject="56309F70-FC17-B132-8A14-6DEDF3715EFF" localFKIndex="265A80FA-C587-C112-8C0F-31422BA22B3C" name="INFO_ANALISIS_VARIEDAD_FK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>442D9AA1-25D1-2E9D-A6D1-94D07C8CCD07</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<referredTableLongName>VARIEDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3154B6FB-DFCD-EC22-0D61-0645348DB9FD</referredTableID>
+<keyObject>26B8C0FF-1A5C-41FF-34D3-15F9D28D4E67</keyObject>
+<referredKeyID>26B8C0FF-1A5C-41FF-34D3-15F9D28D4E67</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_variedad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

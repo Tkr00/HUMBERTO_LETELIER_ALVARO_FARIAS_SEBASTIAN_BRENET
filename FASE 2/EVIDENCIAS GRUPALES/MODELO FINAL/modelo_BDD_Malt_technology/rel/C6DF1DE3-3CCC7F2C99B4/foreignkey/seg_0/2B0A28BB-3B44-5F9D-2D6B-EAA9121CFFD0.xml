@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2B0A28BB-3B44-5F9D-2D6B-EAA9121CFFD0" containerWithKeyObject="0D8AA64F-2AA9-FE71-4326-F79FE5368799" localFKIndex="A5A18648-4AD1-3F26-EC02-33771EA2EC1A" name="INFO_PRODUCCION_INFO_GERMINACION_FK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>C15AFCEF-F1AF-C4AD-842B-3313B42BC490</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<referredTableLongName>INFO_GERMINACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C8E25701-CE81-2F2D-DDA4-FA25F80FBA78</referredTableID>
+<keyObject>FD720E33-3BCE-8829-CAAC-2CADA5F7B68C</keyObject>
+<referredKeyID>FD720E33-3BCE-8829-CAAC-2CADA5F7B68C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_germinacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

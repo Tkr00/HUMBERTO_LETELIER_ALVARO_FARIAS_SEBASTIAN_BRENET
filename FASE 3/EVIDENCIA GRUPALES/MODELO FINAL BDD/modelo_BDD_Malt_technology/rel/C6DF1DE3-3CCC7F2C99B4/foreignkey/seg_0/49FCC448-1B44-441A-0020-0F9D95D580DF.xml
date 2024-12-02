@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49FCC448-1B44-441A-0020-0F9D95D580DF" containerWithKeyObject="0D8AA64F-2AA9-FE71-4326-F79FE5368799" localFKIndex="39D4410D-2C6F-1D76-8C29-9B69CB9C22E7" name="INFO_PRODUCCION_TIPO_MALTA_FK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>738A32DE-B874-AF95-2FA1-556441B3D039</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<referredTableLongName>TIPO_MALTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A64611E1-5AED-21C3-FCC3-4CFD8D0CBB4F</referredTableID>
+<keyObject>4568E14D-5DAC-4364-2D9C-C25F7C7D9B5F</keyObject>
+<referredKeyID>4568E14D-5DAC-4364-2D9C-C25F7C7D9B5F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_malta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="477B00C7-56B3-35B2-D159-BDEAC9CC57D4" containerWithKeyObject="0D8AA64F-2AA9-FE71-4326-F79FE5368799" localFKIndex="4AA74E33-27BC-A7A8-745D-FC85262C035E" name="INFO_PRODUCCION_TIPO_HORNO_FK">
+<createdBy>Alvaro</createdBy>
+<createdTime>2024-09-24 04:10:59 UTC</createdTime>
+<generatorID>7466FBD9-0F80-06B0-1C5A-816EC3BCC29E</generatorID>
+<ownerDesignName>modelo_BDD_Malt_technology</ownerDesignName>
+<referredTableLongName>TIPO_HORNO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7D3D42E7-7E9A-8965-0E33-67ABAF641C84</referredTableID>
+<keyObject>D8ABCD16-8F7F-0AD6-2639-27A677FA739D</keyObject>
+<referredKeyID>D8ABCD16-8F7F-0AD6-2639-27A677FA739D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_horno</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
